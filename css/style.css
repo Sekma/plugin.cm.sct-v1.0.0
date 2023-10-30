@@ -1,0 +1,45 @@
+.section1{
+    display: flex;
+    margin: auto; 
+    height: 500px;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s;
+}
+h1{
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Style Bouttons Droite et Gauche du Background */
+
+.btn-left, .btn-right{
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+}
+.btn-left{
+    border-bottom: 4px solid rgb(240, 0, 0);
+    border-left: 4px solid rgb(240 0, 0);
+    border-top-right-radius: 100%;
+    margin-left: 5%;
+}
+.btn-right{
+    border-top: 4px solid rgb(240 0, 0);
+    border-right: 4px solid rgb(240 0, 0);
+    border-bottom-left-radius: 100%;
+    margin-right: 5%;
+}
+.btn-left:hover, .btn-right:hover{
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: border-color 0.5s;
+}
+
+/* END of Style Bouttons Droite et Gauche du Background */
+
+
