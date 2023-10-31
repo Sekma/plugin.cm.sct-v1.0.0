@@ -15,7 +15,7 @@ h1{
     text-align: center;
 }
 
-/* Style Bouttons Droite et Gauche du Background */
+/* Style Bouttons Droite et Gauche */
 
 .btn-left, .btn-right{
     width: 40px;
@@ -24,13 +24,13 @@ h1{
 }
 .btn-left{
     border-bottom: 4px solid rgb(240, 0, 0);
-    border-left: 4px solid rgb(240 0, 0);
+    border-left: 4px solid rgb(240, 0, 0);
     border-top-right-radius: 100%;
     margin-left: 5%;
 }
 .btn-right{
-    border-top: 4px solid rgb(240 0, 0);
-    border-right: 4px solid rgb(240 0, 0);
+    border-top: 4px solid rgb(240, 0, 0);
+    border-right: 4px solid rgb(240, 0, 0);
     border-bottom-left-radius: 100%;
     margin-right: 5%;
 }
@@ -40,6 +40,15 @@ h1{
     transition: border-color 0.5s;
 }
 
-/* END of Style Bouttons Droite et Gauche du Background */
+/* END of Style Bouttons Droite et Gauche*/
 
-
+/* mobile version */
+@media (max-width: 767px){
+    .btn-left, .btn-right{
+        width: 20px;
+        height: 20px;
+    }
+    .btn-left:hover, .btn-right:hover{
+        border-color: rgb(240, 0, 0);
+    }
+}
