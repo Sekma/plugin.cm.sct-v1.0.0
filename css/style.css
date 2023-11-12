@@ -41,9 +41,17 @@ h1{
 }
 
 /* END of Style Bouttons Droite et Gauche*/
-
+/* tabbet version */
+@media (max-width: 992px){
+    .section1{
+        width: 90%;
+    }
+}
 /* mobile version */
 @media (max-width: 767px){
+    .section1{
+        width: 95%;
+    }
     .btn-left, .btn-right{
         width: 20px;
         height: 20px;
